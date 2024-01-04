@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <meta name = "viewport" content = "width=device-width">    
+            
+        <title>BrianLangevin.com</title>
+        
+    <style type="text/css">
+    
+            .header {
+                background-image: url(images/home-header-background.png);
+                background-repeat: no-repeat;
+            }
+			.navbar {
+                background-image: url(images/home-navbar-background-programming.png);
+                background-repeat: no-repeat;
+            }
+            .body {
+                background-image: url(images/home-body-background.png);
+                background-repeat: repeat-y;
+            }
+            .footer {
+                background-image: url(images/home-footer-background.png);
+                background-repeat: no-repeat;
+            }
+            
+	.welcometext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #333;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: normal;
+            }
+			
+			.bodytext {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #222;
+	text-align: left;
+	font-weight: lighter;
+	vertical-align: top;
+            }
+			
+            .copyrighttext {
+                font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                font-size: 12px;
+                color: #999;
+            }
+    
+        	.photo-grid-4x1 {
+			}
+    </style>
+            
+</head>
+        
+    <body bgcolor="#BBB8B8" text="#555555" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+            
+        <table width="1000" height="96" border="0" class="header" align="center">
+            <tr>
+                <td width="457" align="left" scope="col">
+                	<p>&nbsp;</p>
+                  	<table width="457" height="20" border="0" align="center">
+						<tr>
+                            <td width="5" height="20" align="left" scope="col">
+                            </td>
+                            <td width="452" height="20" align="left" scope="col">
+                            	<a href="index.html"><img src="images/home-logo.png" width="182" height="20"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="472" align="right" scope="col">
+                    <p>&nbsp;</p>
+                    <table width="472" height="20" border="0" align="center">
+          				<tr>
+                            <td height="20" align="center" scope="col">
+                                <a href="about-me.html"><img src="images/home-button-aboutme-inactive.png" width="91" height="20"></a>
+                            </td>
+                            <td height="20" align="center" scope="col">
+                            	<img src="images/home-button-programming-active.png" width="91" height="20">
+                            </td>
+                            <td height="20" align="center" scope="col">
+                            	<a href="music.html"><img src="images/home-button-music-inactive.png" width="91" height="20"></a>
+                            </td>
+                            <td height="20" align="center" scope="col">
+                            	<a href="contact.html"><img src="images/home-button-contact-inactive.png" width="91" height="20"></a>
+                            </td>
+                      </tr>
+                    </table>
+              </td>
+            </tr>
+        </table>
+        
+        <table width="1000" height="40" border="0" class="navbar" align="center">
+            <tr>
+            	<td width="500" scope="col">
+                </td>
+            </tr>
+        </table>
+        
+        <table width="1000" height="250" border="0" class="body" align="center">
+            <tr>
+                <td width="1000" height="250" scope="col">
+                    <table width="806" height="400" border="0" align="center">
+                        <tr>
+                        	<th height="90" colspan="2" class="welcometext" scope="col" >
+                       		  <p>3D User Interface R&amp;D <em>(for Android devices)</em></p>
+							</th>
+                        </tr>
+                        <tr>
+                        	<th height="60" colspan="2" class="bodytext" scope="col" ><p>Is there any merit to a 3D user interface?</p>
+                        	  <p>This project's goal was  to find out if 3D added any value to UI and make 3D programming more accessible to non-3D programmers. At the time I worked on this project, Android had no support for 3D UI at all. There was access to low level OpenGL rendering, but nothing as easy to use as the built in 2D widgets and XML interface. </p>
+<p>Working with another programmer, we created an 	extension library (.jar) to the Android UI APIs and XML that added 	3D positioning and animation.  Using new XML classes, you could easily nest existing 2D UIs inside 3D planes and position them in 3D space. Like 2D, animation remained controlled by code. Because it used a 3D plane as the base container to display normal Android views, we called it the Planar3d library.</p>
+<p>Below, you can see pics of the 4 demo apps that were created to showcase Planar3d:</p>
+<blockquote>
+  <p><strong>3D Contacts List<br>
+  </strong>Much like a traditional ListView, but with 3D configuration of the path that the elements follow. </p>
+  <p><strong>3D Contact Cards<br>
+  </strong>Like the contacts list, but the cards rotate and flip away as you swipe. The position of the cards locked into defined positions and were not continuously scrollable like a list view would be.</p>
+  <p><strong>3D Weather<br>
+  </strong>Every text / image element in this app was on a separate plane. 3D lighting helped distinguish foreground from background. When going between different viewing styles (current-&gt;forecast, etc), all elements would fly and spin away, much like animations you would see  with local weather reporting on TV.</p>
+<p><strong>3D Album Navigation<br>
+</strong>Here photos were lined up in a shuffled manner to mimic a physical pile. As you shuffled from left / right, the map would animate to where the current foreground photo was taken. The photos and map, were all shown in perspective, laying slightly back, as if being spread across a table.<br>
+<br>
+</p>
+</blockquote>
+<p> <img src="images/android3dui-collage.png"></p>
+<p>&nbsp;</p></th>
+                        </tr>
+                    </table>
+                    
+                    <table width="806" height="400" border="0" align="center">
+                        <tr>
+                       	  <th height="60" colspan="2" class="welcometext" scope="col" >
+                          <p>Computer Vision R&amp;D <em>(for Android devices)</em></p>
+</th>
+                      </tr>
+                        <tr>
+                       	  <th height="60" colspan="2" class="bodytext" scope="col" ><p>Getting jiggy in front of the Xbox360's Kinect camera?  The logic that is figuring out your pose and how it relates to the game is using computer vision (CV) algorithms. Augmented reality, face detection, QR codes... all are CV applications.</p>
+<p>My goal was to create our department's knowledge base for CV. During that time, I learned Intel's OpenCV library and how to bring that functionality to Android phones. My demo was a typical augmented reality marker tracking application. You printed out a special marker, put it in front of the phone's camera, and it would use that as a reference for whatever 3D object you want to stick on top of it. In my case, I used a 3D contact cards UI. </p>
+                       	    <p>I found marker tracking to be a very interesting problem. It brought together many different concepts such as understanding lighting, camera exposure / white balance, 2D shape recognition, camera FOV calibration,  2D / 3D projections, and vector / matrix math. </p>
+                          <p>&nbsp;</p>
+                          <img src="images/opencv-collage.png">
+                          </th>
+                        </tr>
+                  </table>
+					<table width="806" height="300" border="0" align="center">
+                        <tr>
+                       	  <th height="60" colspan="2" class="welcometext" scope="col" >
+                          <p>&nbsp;</p>
+                          <p>Stuntman: Ignition</p>
+                       	  </th>
+                        </tr>
+                        <tr>
+                       	  <th width="177" height="250" scope="col" class="bodytext" >
+                       	  	<a href="images/stuntman-cover.jpg">
+                            	<img src="images/stuntman-cover-thumb.jpg">
+                             </a>
+                          </th>
+                       	  <td width="619" align="left" valign="top" class="bodytext" scope="col" >
+                            <p>Released <em>Stuntman: Ignition</em> for Microsoft Xbox360 / Sony PS3. </p>
+                          <p>This 2 year project played to Paradigm Entertainment's strengths in developing driving games.</p>
+                          <p>I worked as a graphics and tools programmer, tackling all kinds of interesting things like dynamic lighting (sun, headlights), light mapped static lighting, cascaded shadow maps, soft edged particles, post process effects,  and multi-core CPU / GPU performance tuning. I also implemented prototypes for deferred shading and real time cube map lighting.</p>
+                          <p>Although the game's sales were mediocre, it was fun to work on race cars, movie sets, and explosions.</p></td>
+                        </tr>
+                    </table>
+      				<table width="806" align="center" border="1">
+						<tr>
+                        	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/stuntman-shot-1.jpg">
+                                	<img src="images/stuntman-shot-1-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                       	  	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/stuntman-shot-2.jpg">
+                                	<img src="images/stuntman-shot-2-thumb.jpg" align="middle" >  
+                               	</a>
+					    	</th>
+                            <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/stuntman-shot-3.jpg">
+                                	<img src="images/stuntman-shot-3-thumb.jpg" align="middle">  
+                               	</a>
+							</th>
+                          <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/stuntman-shot-4.jpg">
+                                	<img src="images/stuntman-shot-4-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                        </tr>
+                    </table>
+                    <table width="806" height="400" border="0" align="center">
+                        <tr>
+                       	  <th height="60" colspan="2" class="welcometext" scope="col" >
+                          <p>&nbsp;</p>
+                          <p>Call of Duty 2</p>
+                       	  </th>
+                      </tr>
+                        <tr>
+                       	  <th width="177" height="250" class="bodytext" scope="col" >
+                          	<a href="images/cod2-cover.jpg">
+                            	<img src="images/cod2-cover-thumb.jpg">
+                                </a>
+                          </th>
+                       	  <th height="29" class="bodytext" scope="col" ><p>Released <em>Call of Duty 2</em> for Microsoft Xbox360  / Windows PC. </p>
+                   	      <p>This 1 year project was released as a Xbox360 launch title. Like its predecessor, this game sold very well, but most importantly identified the franchise as a must have console shooter.</p>
+                   	      <p>I worked on the graphics team and had many tasks porting and improving code from the previous title. Tasks included particle effects,   water rendering,  scene glow,  split screen game play, effects editing tool support, and performance profiling.</p></th>
+                        </tr>
+                  </table>
+                  <table width="806" align="center" border="1">
+						<tr>
+                        	<tr>
+                        	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/cod2-shot-1.jpg">
+                                	<img src="images/cod2-shot-1-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                       	  	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/cod2-shot-2.jpg">
+                                	<img src="images/cod2-shot-2-thumb.jpg" align="middle" >  
+                               	</a>
+					    	</th>
+                            <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/cod2-shot-3.jpg">
+                                	<img src="images/cod2-shot-3-thumb.jpg" align="middle">  
+                               	</a>
+							</th>
+                          <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/cod2-shot-4.jpg">
+                                	<img src="images/cod2-shot-4-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                        </tr>
+                    </table>
+                    <table width="806" height="400" border="0" align="center">
+                        <tr>
+                       	  <th height="60" colspan="2" class="welcometext" scope="col" >
+                          <p>&nbsp;</p>
+                          <p>Terminator 3: The Redemption</p>
+                       	  </th>
+                        </tr>
+                        <tr>
+                       	  <th width="177" height="250" class="bodytext" scope="col" >
+                          	<a href="images/t3r-cover.jpg">
+                            	<img src="images/t3r-cover-thumb.jpg">
+                                </a>
+                          </th>
+                       	  <th height="29" class="bodytext" scope="col" > <p>Released <em>Terminator 3: The Redemption </em>for Sony PS2 / Nintendo Gamecube / Microsoft Xbox. </p>
+                       	    <p>This 2 year project was based on the Terminator 3 movie and was my first project out of college.</p>
+<p>I was given the opportunity to really sink my teeth into lighting and effects. Tasks included  particle effects, light glare rendering, atmospheric fog, electricity trails, dynamic lights, weapons, in-game art asset GUIs, and CPU performance optimization (so I could put more effects in!). </p>
+                   	      <p>If effects in games are like the icing on the cake, I was in charge of laying on as much icing as possible. Definitely my favorite project and genre.</p></th>
+                   	    </tr>
+                    </table>
+                    <table width="806" align="center" border="1">
+						<tr>
+                        	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/t3r-shot-1.jpg">
+                                	<img src="images/t3r-shot-1-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                       	  	<th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/t3r-shot-2.jpg">
+                                	<img src="images/t3r-shot-2-thumb.jpg" align="middle" >  
+                               	</a>
+					    	</th>
+                            <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/t3r-shot-3.jpg">
+                                	<img src="images/t3r-shot-3-thumb.jpg" align="middle">  
+                               	</a>
+							</th>
+                          <th class="photo-grid-4x1" scope="col" >
+                            	<a href="images/t3r-shot-4.jpg">
+                                	<img src="images/t3r-shot-4-thumb.jpg" align="middle">  
+                               	</a>
+						  </th>
+                        </tr>
+                    </table>
+              </td>
+            </tr>
+        </table>
+        
+        <table width="1000" border="0" class="footer" align="center">
+            <tr>
+                <td width="968" align="center" scope="col">
+                    <table width="968" border="0" class="copyrighttext">
+                        <tr>
+                            <th width="968" height="200" valign="bottom" scope="col" >
+                            <p>This website has been tested with the Safari, Firefox, and Chrome Internet Browsers. </p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p></th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+  
+</html>
